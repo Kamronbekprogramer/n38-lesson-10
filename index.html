@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 10</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navigation">
+            <a href="#" class="logo-link">
+              <img src="img/logo.svg" alt="logo-site" class="site-logo-img" />
+            </a>
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"></a>About</li>
+              <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+            </ul>
+            <div class="btn-form">
+              <a href="#" class="btn-link">Log in</a>
+              <a href="#" class="btn-link">Open an account</a>
+              <select class="select-lang">
+                <option>eng</option>
+                <option>uz</option>
+                <option>ru</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="form-group">
+        <a href="#" class="site__logo">
+          <img src="img/logo.svg" alt="site-logo" />
+        </a>
+        <h1 class="site__form-heading">Welcome to ByTrend!</h1>
+        <p class="site__paragriph-text">
+            Let’s Sign up first
+          <a href="#" class="site-form-link">Log in</a>
+        </p>
+        <form class="site__form">
+          <div class="mb-24">
+            <div class="label-main">
+              <label for="frist-name" class="label-name"
+                >Frist name<span>*</span>
+                <input
+                  type="text"
+                  name="fristname"
+                  id="frist-name"
+                  class="form-input"
+                  placeholder="Frist name"
+                />
+              </label>
+              <label for="last-name" class="label-name"
+                >Last name<span>*</span>
+                <input
+                  type="text"
+                  name="lastname"
+                  id="last-name"
+                  class="form-input"
+                  placeholder="Your surname"
+                />
+              </label>
+            </div>
+          </div>
+          <div class="mb-24">
+            <label for="brith-day" class="label-brithday">
+              Birth date <span>*</span>
+              <input
+                type="date"
+                name="brithday"
+                id="brith-day"
+                class="form-input form-brithday"
+                value="2018-07-22" min="2018-01-01" max="2018-12-31";
+              />
+            </label>
+          </div>
+          <div class="mb-24">
+            <p>Gender<span>*</span></p>
+            <div class="gender-group">
+              <label for="female" class="gender-input">
+                <input
+                  type="radio"
+                  name="gender"
+                  id="female"
+                  class="radio-form"
+                />
+                Female
+              </label>
+              <label for="male" class="gender-input">
+                <input
+                  type="radio"
+                  name="gender"
+                  id="male"
+                  class="radio-form"
+                />Male
+              </label>
+            </div>
+          </div>
+          <div class="mb-24">
+            <label for="skaype" class="label-sk">
+              Skype
+              <input
+                type="text"
+                name="skaype-login"
+                id="skaype"
+                class="form-input"
+                placeholder="Your Skaype Login"
+              />
+            </label>
+          </div>
+          <div class="mb-24">
+            <label for="promo" class="promo-code">
+              promo
+              <input
+                type="text"
+                name="promo-code"
+                id="promo"
+                class="form-input"
+                placeholder="Your promo code"
+              />
+            </label>
+          </div>
+          <div class="btn-group">
+            <a href="pages/registr.html" class="btn">
+              Contune <img src="img/arrow-right.svg" alt="arrow-right" />
+            </a>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p class="footer__paragriph">
+          ©2020 All Rights Reserved. Lorem Technologies, Inc.
+        </p>
+      </div>
+    </footer>
+
+    <!-- script js -->
+    <script src="js/min.js"></script>
+    <!-- script js -->
+  </body>
+</html>

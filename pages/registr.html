@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registr</title>
+    <link rel="stylesheet" href="/css/registr.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navigation">
+              <a href="/index.html" class="logo-link">
+                <img src="/img/logo.svg" alt="logo-site" class="site-logo-img" />
+              </a>
+              <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"></a>About</li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+              </ul>
+              <div class="btn-form">
+                <a href="#" class="btn-link">Log in</a>
+                <a href="#" class="btn-link">Open an account</a>
+                <select class="select-lang">
+                  <option>eng</option>
+                  <option>uz</option>
+                  <option>ru</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="form-group">
+          <a href="/index.html" class="site__logo">
+            <img src="/img/logo.svg" alt="site-logo" />
+          </a>
+          <h1 class="site__form-heading">Welcome to ByTrend!</h1>
+          <p class="site__paragriph-text">
+              Let’s Sign up first
+            <a href="#" class="site-form-link">Log in</a>
+          </p>
+          <form action="site__form">
+            <div class="mb-24">
+                <div class="label-main">
+                    <label for="Email" class="label-email">
+                        Email <span>*</span>
+                        <input 
+                        type="text"
+                        name="Email"
+                        id="email"
+                        class="form-input"
+                        placeholder="Email addres"
+                        />
+                    </label>
+                    <label for="phone" class="label-phone">
+                         Phone <span>*</span>
+                        <input
+                           type="tel"
+                           name="phone"
+                           id="phone"
+                           class="form-input"
+                           placeholder="+7-965-748-89-90"
+                         />
+                    </label>
+                </div>
+            </div>
+          </form>
+          <form action="country__form">
+           <div class="mb-24">
+            <div class="label-Country">
+                <label for="Country" class="label-country">
+                    Country <span>*</span>
+                   <select  class="form-country" id="">
+                    <option value="">Russia</option>
+                    <option value="">America</option>
+                    <option value="">Uzbekistan</option>
+                   </select>
+                </label>
+                <label for="City" class="label-city">
+                    City <span>*</span>
+                    <input
+                     type="text"
+                     name="city"
+                     id="city"
+                     class="form-City"
+                     placeholder="Name of the city"
+                     />
+                </label>
+            </div>
+           </div>
+           <div class="mb-24">
+            <label for="Password" class="label-password">
+              Password <span>*?</span>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="form-input form-password"
+                value="*************";
+              />
+            </label>
+            </div>
+            <div class="mb-24">
+              <label for="Confrim-password" class="label-confrim-password">
+                Confrim-password<span>*</span>
+                <input
+                  type="confrim-password"
+                  name="confrim-password"
+                  id="confrim-password"
+                  class="form-input form-confrim-password"
+                  value="";
+                />
+              </label>
+              </div>
+              <div class="btn-group">
+                <a href="/pages/login.html" class="btn">
+                  Register 
+                </a>
+              </div>
+          </form>
+        </section>
+    </main>
+    <footer class="footer">
+      <p>By signing up, you are agreeing to our Terms & Conditions <br> and Privacy Policy.</p>
+    </footer>
+    
+</body>
+</html>
